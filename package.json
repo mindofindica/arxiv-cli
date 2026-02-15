@@ -1,0 +1,27 @@
+{
+  "name": "@indica/arxiv-cli",
+  "version": "0.1.0",
+  "description": "CLI for interacting with arxiv-coach from the terminal",
+  "main": "index.js",
+  "type": "module",
+  "bin": {
+    "arxiv": "./bin/arxiv.js"
+  },
+  "scripts": {
+    "test": "node --test"
+  },
+  "keywords": [
+    "arxiv",
+    "research",
+    "cli",
+    "papers"
+  ],
+  "author": "Indica <indica.ai@proton.me>",
+  "license": "MIT",
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "better-sqlite3": "^12.6.2"
+  }
+}
